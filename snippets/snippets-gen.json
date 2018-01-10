@@ -1,0 +1,180 @@
+{
+  "Album":
+    "<Album\twidth=\"$1\"\theight=\"$2\"\tenableKeyBoardControl\tenableThumbs={false}\tthumbPlacement=\"right\"\tthumbBackground=\"#000\">\t$3</Album>",
+  "Album Photo": "<Album.Photo\tkey={0}\tsrc={}\tthumb-src={}/>",
+  "Alert":
+    "<Alert\tmessage={$1}\tprefixCls=\"kuma-alert\"\ticonPrefixCls=\"kuma-icon\"\tclassName=\"$2\"\ttype=\"message\"\thasContainer={false}\tclosable={false}\tcloseText=\"\"\tdescription=\"\"\tonClose=\"\"/>",
+  "Animate":
+    "<Animate\tcomponent=\"span\"\tshowProp={$1}\ttransitionName={$2}\ttransitionAppear={false}\ttransitionEnter\ttransitionLeave\tonEnd={$3}>$4</Animate>",
+  "Badge":
+    "<Badge\tprefixCls=\"kuma-badge\"\tclassName=\"\"\tcount={0}\toverflowCount={99}\tdot={false}\ttext=\"\">$1</Badge>",
+  "Carousel":
+    "<Carousel\tprefixCls=\"kuma-carousel\"\tlargeArrowsAndDots={false}\tdots\tcssEase=\"ease-out\"\tinfinite\tspeed={500}\tslidesToShow={1}\tcenterDots\tslidesToScroll={1}\tarrows=\"hover\">\t<div>$1</div></Carousel>",
+  "Dialog":
+    "<Dialog\ttitle={$1}\tvisible={$2}\tonOk={$3}\tonCancel={$4}\twidth={$5}\tfooter={$6}\tclosable\tmaskClosable\tlocale={'zh-cn'}\tclassName=\"\"\twrapClassName=\"\"\tstyle={{}}\tzIndex={}\tbodyStyle={{}}\tmousePosition={{}}>\t$1</Dialog>",
+  "Dropdown":
+    "<Dropdown\ttrigger={['hover']}\toverlay={}\tonVisibleChange={}\tvisible={false}>\t$1</Dropdown>",
+  "EmptyData":
+    "<EmptyData\ticon=\"\"\tlargeIcon=\"\"\tstyle={{}\tprefixCls=\"kuma-empty-data\"\tclassName=\"\">$1</EmptyData>",
+  "Icon": "<Icon\tname=\"$1\"\tclassName=\"$2\"/>",
+  "LoadMore":
+    "<LoadMore\tstatus=\"loaded\"\tclassName=\"\"\ttrigger={['view', 'click']}\tonLoadMore={}\tviewLoadDelay={150}\tlocale={'zh-cn'}\tloadText=\"\"\tloadingText=\"\"\tnoMoreText=\"\"/>",
+  "Message Success": "Message.success($1, $2);",
+  "Message Info": "Message.info($1, $2);",
+  "Message Error": "Message.error($1, $2);",
+  "Message Loading": "Message.loading($1, $2);",
+  "Popover":
+    "<Popover\toverlay=\"\"\toverlayClassName=\"\"\tvisible={}\ttitle=\"\"\tplacement=\"top\"\tprefixCls=\"kuma-popup\"\ttrigger=\"hover\"\tshowButton={false}\tonOk={}\tonCancel={}\tokText=\"确定\"\tcancelText=\"取消\"\tonVisibleChange={}>$1</Popover>",
+  "Progress Line":
+    "<Line\tpercent={0}\tstatus=\"normal\"\tstrokeWidth={1}\tshowInfo/>",
+  "Progress Circle":
+    "<Circle\tpercent={0}\tstatus=\"normal\"\tstrokeWidth={1}\tshowInfo\tsize={156}/>",
+  "Steps":
+    "<Steps\tprefixCls=\"kuma-step\"\tclassName=\"\"\tcurrent={0}\tdirection=\"\"\tmaxDescriptionWidth={100}\tshowIcon\ttype=\"default\"\tshowDetail={false}\tcurrentDetail={0}\tonChange={}>\t$1</Steps>",
+  "Steps Step":
+    "<Steps.Step\tstatus=\"wait\"\ttitle=\"\"\tdescription=\"\"\ticon=\"\"/>",
+  "Tag": "<Tag\tclassName=\"\"\taddTags\tonAdd={}\tlocale=\"zh-cn\">\t$1</Tag>",
+  "Tag Item":
+    "<Tag.Item\tclassName=\"\"\ttag=\"\"\ttype=\"\"\tcount={0}\tcanAddCount={false}\tcanDelete={false}\tonClick={}\tmaxDisplayCount={99}\tonAddCount={}\tonDelete={}\tconfirmDeleteText=\"\">\t$1</Tag.Item>",
+  "Timeline": "<Timeline\tclassName=\"\"\tpending={}>\t$1</Timeline>",
+  "Timeline Item":
+    "<Timeline.Item\tclassName=\"\"\tcolor=\"orange\"\tdot={}>\t$1</Timeline.Item>",
+  "Tooltip":
+    "<Tooltip\toverlayClassName=\"uxcore\"\ttrigger={['hover]}\tmouseEnterDelay={0}\tmouseLeaveDelay={0.1}\toverlayStyle={{}}\twrapStyle={{}}\tprefixCls=\"kuma-tooltip\"\tonVisibleChange={}\tvisible={false}\tdefaultVisible={false}\tplacement={}\talign={{}}\toverlay={}\tgetTooltipContainer={}>$1</Tooltip>",
+  "Button":
+    "<Button\tsize=\"medium\"\ttype=\"\"\tdisabled={false}\tclassName=\"\">$1</Button>",
+  "Calendar":
+    "<Calendar\tvalue=\"\"\tdefaultValue=\"\"\tplaceholder=\"请选择日期\"\tformat=\"yyyy-MM-dd\"\tlocale=\"zh-cn\"\tdisabledDate={}\tonSelect={}\tshowTime={false}\tdisabled={false}\ttimePicker={}\tgetPopupContainer={}/>",
+  "Month Calendar":
+    "<Calendar.MonthCalendar\tvalue=\"\"\tdefaultValue=\"\"\tplaceholder=\"请选择日期\"\tformat=\"yyyy-MM-dd\"\tlocale=\"zh-cn\"\tonSelect={}\tdisabled={false}\tgetPopupContainer={}/>",
+  "Year Calendar":
+    "<Calendar.YearCalendar\tvalue=\"\"\tdefaultValue=\"\"\tplaceholder=\"请选择日期\"\tformat=\"yyyy-MM-dd\"\tlocale=\"zh-cn\"\tonSelect={}\tdisabled={false}\tgetPopupContainer={}/>",
+  "CasMultiSelect":
+    "<CascadeMultiSelect\tprefixCls=\"kuma-cascade-multi\"\tclassName=\"\"\tdropdownClassName=\"\"\tconfig={[]}\toptions={[]}\tvalue={[]}\tdefaultValue={[]}\tcascadeSize={3}\tplaceholder=\"\"\tnotFoundContent=\"\"\tallowClear\tdisabled={false}\tlocale=\"zh-cn\"\tonSelect={}\tonItemClick={}\tonOk={}\tonCancel={}/>",
+  "CascadeMultiPanel":
+    "<CascadeMultiPanel\tclassName=\"\"\tprefixCls=\"kuma-cascade-multi\"\tconfig={[]}\toptions={[]}\tvalue={[]}\tcascadeSize={3}\tnotFoundContent=\"\"\tallowClear\tlocale=\"zh-cn\"\tonSelect={}\tonItemClick={}/>",
+  "CascadeMultiModal":
+    "<CascadeMultiModal\tprefixCls=\"kuma-cascade-multi\"\tclassName=\"\"\tconfig={[]}\toptions={[]}\tvalue={[]}\tcascadeSize={3}\tnotFoundContent=\"\"\tallowClear\tlocale=\"zh-cn\"\tonSelect={}\tonItemClick={}\ttitle=\"级联选择\"\twidth={672}\tonOk={}\tonCancel={}/>",
+  "CascadeSelect":
+    "<CascadeSelect\tprefixCls=\"kuma-cascader\"\tclassName=\"\"\toptions={[]}\tvalue={null}\tdefaultValue={[]}\tplaceholder=\"\"\tonChange={}\tdisabled={false}\tclearable={false}\tchangeOnSelect={false}\texpandTrigger=\"click\"\tbeforeRender={}\tcascadeSize={3}/>",
+  "Checkbox":
+    "<CheckboxGroup\tvalue={[]}\tonChange={}\tdisabled={false}>\t$1</CheckboxGroup>",
+  "Checkbox Item":
+    "<CheckboxGroup.Item\ttext=\"\"\tvalue=\"\"\tdisabled={}>$1</CheckboxGroup.Item>",
+  "Form":
+    "<Form\tclassName=\"\"\tjsxprefixCls=\"kuma-form\"\tjsxmode=\"EDIT\"\tjsxvalues={{}}\tjsxonChange={}\tinstantValidate\tasyncValidate={false}>\t$1</Form>",
+  "Form Row":
+    "<Form.Row\tclassName=\"\"\tjsxprefixCls=\"kuma-form\">\t$1</Form.Row>",
+  "InputFormField":
+    "<InputFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxplaceholder=\"\"\tjsxdisabled={false}\tvalidateOnBlur={false}\tonKeyDown={}\tonBlur={}\tonFocus={}\trenderView={}\tautoTrim={}\tinputType=\"text\"/>",
+  "InputFormField Count": "<InputFormField.Count\ttotal={$1}/>",
+  "InputFormField LeftAddon":
+    "<InputFormField.LeftAddon>\t$1<InputFormField.LeftAddon/>",
+  "InputFormField RightAddon":
+    "<InputFormField.RightAddon>\t$1<InputFormField.RightAddon/>",
+  "TextAreaFormField":
+    "<TextAreaFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxplaceholder=\"\"\tvalidateOnBlur={false}\tonKeyDown={}\tonBlur={}\tonFocus={}\tautoTrim={}\tautosize/>",
+  "TextAreaFormField Count": "<TextAreaFormField.Count\ttotal={}/>",
+  "RadioGroupFormField":
+    "<RadioGroupFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxdisabled={false}>\t$1</RadioGroupFormField>",
+  "RadioGroupFormField Item":
+    "<RadioGroupFormField.Item\tvalue=\"\"\ttext=\"\"/>",
+  "SelectFormField":
+    "<SelectFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxdata={{}}\tjsxfetchUrl=\"\"\tjsxstyle={{}}\tbeforeFetch={}\tafterFetch={}\tdataType=\"json\"/>",
+  "SearchFormField":
+    "<SearchFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tadvancedOptions={[]}\tadvancedConfig={{}}\tclassOptions={[]}\tclassConfig={{}}\ttidy={false}\tonIconClick={}/>",
+  "CheckboxGroupFormField":
+    "<CheckboxGroupFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxdisabled={false}>\t$1</CheckboxGroupFormField>",
+  "CheckboxGroupFormField Item":
+    "<CheckboxGroupFormField.Item\tvalue=\"\"\ttext=\"\"/>",
+  "DateFormField":
+    "<DateFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxtype=\"single\"\tjsxfrom=\"\"\tjsxto=\"\"\tpanel=\"day\"\tautoMatchWidth={false}/>",
+  "NumberInputFormField":
+    "<NumberInputFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxplaceholder=\"\"\tjsxtype=\"\"/>",
+  "CascadeSelectFormField":
+    "<CascadeSelectFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tjsxdata={{}}\tjsxplaceholder=\"\"\tjsxstyle={{}}/>",
+  "PickableFormField":
+    "<PickableFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tmultiple\tvalue={}\ttype=\"normal\"\tmax={99}/>",
+  "EditorFormField":
+    "<EditorFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate\tplaceholder=\"\"\tjsxconfig={{}}/>",
+  "OtherFormField":
+    "<OtherFormField\tclassName=\"\"\tjsxshow={true}\tjsxmode=\"EDIT\"\tjsxshowLabel\tjsxname=\"\"\tjsxlabel=\"\"\tjsxprefixCls=\"kuma-form-field\"\tjsxflex={1}\tjsxtips=\"\"\tjsxrules={}\tinstantValidate>\t$1</OtherFormField>",
+  "MulitSelect":
+    "<MulitSelect\tvalue={[]}\tonChange={}\tdisabled={false}\tclassName=\"\"\tdropdownClassName=\"\"\tplaceholder=\"\"\ttitleBreakStr=\"、\"\toptionLabelProp=\"text\"\tmaxSelect={}\tshowSelectAll\tshowClear\tonSubmit={}>\t$1</MulitSelect>",
+  "MulitSelect Item": "<MulitSelect.Item\tvalue=\"\"\ttext=\"\"/>",
+  "Pickable":
+    "<Pickable\tprefixCls=\"kuma-pickable\"\tclassName=\"\"\tonChange={}\tmultiple\tmax={99}\ttype=\"normal\"\tenableFold={false}\tdefaultFoldItems\tmaxLines={1}\tlocale=\"zh-cn\">\t$1</Pickable>",
+  "Pickable Item":
+    "<Pickable.Item\tvalue={$1}\tdisabled={false}\tnumber={}\tmax={99}>\t$2</Pickable.Item>",
+  "RadioGroup":
+    "<RadioGroup\tvalue={$1}\tonChange={$2}\tdisabled={false}>\t$3</RadioGroup>",
+  "RadioGroup Item":
+    "<RadioGroup.Item\tvalue={$1}\ttext={$2}\tdisabled={false}>\t$3</RadioGroup.Item>",
+  "Rate":
+    "<Rate\tvalue={$1}\tonChange={$2}\tprefixCls=\"kuma-rate\"\tclassName=\"\"\tdisabled={false}\ttotal={5}\tscoreTips={[]}\ttipShow=\"hover\"\tsizee=\"medium\"\ticons={[]}\tactiveIcons={[]}\tactiveAll/>",
+  "Select2":
+    "<Select\tvalue={}\tdefaultValue={}\tmultiple={false}\tfilterOption\ttags={false}\tonSelect={}\tonDeselect={}\tonChange={}\tonSearch={}\tallowClear={false}\tplaceholder=\"\"\tsearchPlaceholder=\"\"\toptionFilterProp=\"\"\tcombobox={false}\tsize=\"\"\toptionLabelProp=\"children\"\tgetPopupContainer={}\tdropdownMatchSelectWidth\tdropdownClassName=\"\"\tnotFoundContent=\"not found\">\t$1</Select>",
+  "Select2 Option":
+    "<Select.Option\tdisabled={false}\tkey={$1}\tvalue={$2}\ttitle=\"$3\"/>",
+  "Select2 OptGroup":
+    "<Select.OptGroup\tlabel=\"$1\"\tkey=\"$2\">\t$3</Select.OptGroup>",
+  "Switch":
+    "<Switch\tprefixCls=\"kuma-switch\"\tclassName=\"\"\tchecked={false}\tdefaultChecked={false}\tonChange={}\tcheckedChildren=\"\"\tunCheckedChildren=\"\"/>",
+  "Tinymce":
+    "<Tinymce\tconfig={{}}\tcontent={}\tplaceholder=\"\"\tonChange={}/>",
+  "TreeSelect":
+    "<TreeSelect\tclassName=\"\"\tprefixCls=\"kuma-tree-select\"\tanimation=\"\"\ttransitionName=\"\"\tchoiceTransitionName=\"\"\tdropdownMatchSelectWidth\tdropdownClassName=\"\"\tdropdownStyle={{}}\tdropdownPopupAlign={}\tnotFoundContent=\"Not Found\"\tshowSearch\tallowClear={false}\tmaxTagTextLength={}\tmultiple={false}\tdisabled={false}\tinputValue={}\tdefaultValue={}\tvalue={}\tlabelInValue={false}\tonChange={}\tonSelect={}\tonSearch={}\tshowCheckedStrategy={}\ttreeIcon={false}\ttreeLine={false}\ttreeDefaultExpandAll={false}\ttreeCheckable={false}\ttreeCheckStrictly={false}\tfilterTreeNode={}\ttreeNodeFilterProp=\"value\"\ttreeNodeLabelProp=\"title\"\ttreeData={[]}\ttreeDataSimpleMode={false}\tloadData={}/>",
+  "TreeSelect TreeNode":
+    "<TreeSelect.TreeNode\tdisabled={false}\tkey={$1}\tvalue=\"$2\"\ttitle=\"---\"\tisLeaf={false}/>",
+  "Uploader":
+    "<Uploader\tclassName=\"\"\tlocale=\"zh-cn\"\tfileList={[]}\tisOnlyImg={false}\tcore={}\tname=\"file\"\turl=\"\"\tparams={[]}\theaders={[]}\twithCredentials={false}\ttimeout={0}\tchunkEnable={false}\tchunkSize={0}\tchunkRetries={0}\tchunkProcessThreads={2}\tprocessThreads={2}\tqueueCapcity={0}\tautoPending\tmultiple\taccept={}\tsizeLimit={0}\tpreventDuplicate={false}\tactionOnQueueLimit=\"error\"/>",
+  "Collapse":
+    "<Collapse\tactiveKey={[]}\tdefaultActiveKey={[]}\taccordion={false}\tonChange={}>\t$1</Collapse>",
+  "Collapse Panel": "<Collapse.Panel\tkey={}\theader={}>\t$1</Collapse.Panel>",
+  "Crumb": "<Crumb\tclassName=\"\">\t$1</Crumb>",
+  "Crumb Item": "<Crumb.Item\tclassName=\"\"\thref=\"\"/>",
+  "FloatNav":
+    "<FloatNav\tprefixCls=\"uxcore-float-nav\"\tclassName=\"\"\tshowOrderNumber\twidth={260}\theight={370}\toffset={{right:20, bottom:20}\tcontent={}\tstepLength={50}>\t$1</FloatNav>",
+  "FloatNav Item":
+    "<FloatNav.NavItem\ttitle=\"\"\tanchor=\"\"\tonClick={}>\t$1</FloatNav.NavItem>",
+  "Menu":
+    "<Menu\tmode=\"vertical\"\tselectedKeys={[]}\tdefaultSelectedKeys={[]}\topenKeys={[]}\tdefaultOpenKeys={[]}\tonSelect={}\tonDeselect={}\tonClick={}\tstyle={{}}>\t$1</Menu>",
+  "Menu SubMenu": "<Menu.SubMenu\ttitle=\"$1\">\t$2</Menu.SubMenu>",
+  "Menu Item": "<Menu.Item\tdisabled={false}\tkey={$1}>\t$2</Menu.Item>",
+  "Pagination":
+    "<Pagination\tlocale=\"zh-cn\"\tcurrent={1}\ttotal={0}\tpageSize={10}\tonChange={}\tshowTotal={false}\tshowQuickJump={false}\tshowSizeChanger={false}\tsizeOptions={[10,20,30,40]}\tonShowSizeChange={}\tclassName=\"\"\tsimple={{}}\tgetSelectPopupContainer={}/>",
+  "Tabs":
+    "<Tabs\tactiveKey=\"\"\tdefaultActiveKey=\"\"\tonChange={}\tonTabClick={}\tdestroyInactiveTabPane={false}\ttype=\"large\">\t$1</Tabs>",
+  "Tabs TabPane": "<Tabs.TabPane\tkey={}\ttab=\"\">\t$1</Tabs.TabPane>",
+  "Totop":
+    "<Totop\tprefixCls=\"kuma-totop\"\tclassName=\"\"\tto={10}\tdistance={30}\tduration={600}\ttheme=\"\"/>",
+  "Tree":
+    "<Tree\tclassName=\"\"\tprefixCls=\"\"\tshowLine\tshowIcon\tselectable\tmultiple={false}\tcheckable={false}\tdefaultExpandAll={false}\tdefaultExpandedKeys={[]}\texpandedKeys={[]}\tautoExpandParent\tcheckedKeys={[]}\tdefaultCheckedKeys={[]}\tselectedKeys={[]}\tdefaultSelectedKeys={[]}\tonExpand={}\tonCheck={}\tonSelect={}\tfilterTreeNode={}\tloadData={}\tonRightClick={}\tonMouseEnter={}\tonMouseLeave={}\tdraggable={false}\tonDragStart={}\tonDragEnter={}\tonDragOver={}\tonDragLeave={}\tonDrop={}>\t$1</Tree>",
+  "Tree Node":
+    "<Tree.TreeNode\tclassName=\"\"\tdisabled={false}\tdisableCheckbox={false}\ttitle=\"---\"\tkey={$1}\tisLeaf={false}/>",
+  "Grid": "<Grid\tcomponentClass=\"div\"\tfluid={false}>\t$1</Grid>",
+  "Grid Row": "<Grid.Row\tcomponentClass=\"div\">\t$1</Grid.Row>",
+  "Grid Col":
+    "<Grid.Col\tlg={}\tlgOffset={}\tlgPull={}\tlgPush={}\tmd={}\tmdOffset={}\tmdPull={}\tmdPush={}\tsm={}\tsmOffset={}\tsmPull={}\tsmPush={}\txs={}\txsOffset={}\txsPull={}\txsPush={}>\t$1</Grid.Col>",
+  "Layout": "<Layout\tclassName=\"\">\t$1</Layout>",
+  "Layout Left":
+    "<Layout.Left\tclassName=\"\"\twidth={500}\tadaptive={false}>\t$1</Layout.Left>",
+  "Layout Right":
+    "<Layout.Right\tclassName=\"\"\twidth={500}\tadaptive={false}>\t$1</Layout.Right>",
+  "Matrix":
+    "<Matrix\tprefixCls=\"kuma-matrix\"\tclassName=\"\"\twidth={}\theight={}\tcellHeight={40}\tcellWidth={100}\trender={}\tdata={{}}/>",
+  "Table":
+    "<Table\tjsxcolumns={[]}\twidth={1000}\theight={'100%'}\tshowColumnPicker\tshowPager\tshowPagerTotal={false}\tshowPagerSizeChanger\tisMiniPager\tshowHeader\tshowHeaderBorder={false}\tshowMask\tshowSearch={false}\tdoubleClickToEdit\tfetchDataOnMount\trowSelector=\"checkboxSelector\"\tlocale=\"zh-cn\"\temptyText=\"暂无数据\"\tsearchBarPlaceholder=\"搜索表格内容\"\tloadingText=\"loading\"\theaderHeight={40}\tpageSize={10}\tpagerSizeOptions={[10,20,30,40]}\tqueryKeys={[]}\tjsxdata={{}}\tfetchUrl=\"\"\tfetchParams={{}}\tactionBar={}\tbeforeFetch={}\tprocessData={}\tonFetchError={}\tonSearch={}\tonOrder={}\tonPagerChange={}\taddRowClassName={}\trowSelection={{}}\trenderSubComp={}\trenderModel=\"\"\tlevels={0}\tonChange={}\tgetSavedData/>",
+  "Mention":
+    "<Mention\tprefixCls=\"kuma-mention\"\tsource={}\tdelay={100}\tmatchRange={[2,8]}\tformatter={}\tpanelFormatter={}\tonChange={}>\t$1</Mention>",
+  "Mention TinymceMention":
+    "<Mention.TinymceMention\tprefixCls=\"kuma-mention\"\tsource={}\tdelay={100}\tmatchRange={[2,8]}\tformatter={}\tpanelFormatter={}\tmentionFormatter={}\tonChange={}\tonAdd={}\tinsertMode=\"\">\t$1</Mention.TinymceMention>",
+  "Mention ContentEditableEditor":
+    "<Mention.ContentEditableEditor\tprefixCls=\"kuma-mention\"\twidth={200}\theight={100}\tplaceholder=\"\"\tmentionFormatter={}\tonChange={}\tonAdd={}\tdefaultValue=\"\"\treadOnly={false}\tdelimiter=\"@\">\t$1</Mention.ContentEditableEditor>",
+  "Mention TextareaEditor":
+    "<Mention.TextareaEditor\tprefixCls=\"kuma-mention\"\twidth={200}\theight={100}\tplaceholder=\"\"\tmentionFormatter={}\tonChange={}\tonAdd={}\tdefaultValue=\"\"\treadOnly={false}\tdelimiter=\"@\">\t$1</Mention.TextareaEditor>",
+  "Mention InputEditor":
+    "<Mention.InputEditor\tprefixCls=\"kuma-mention\"\twidth={200}\theight={30}\tplaceholder=\"\"\tmentionFormatter={}\tonChange={}\tonAdd={}\tdefaultValue=\"\"\treadOnly={false}\tdelimiter=\"@\">\t$1</Mention.InputEditor>",
+  "Transfer":
+    "<Transfer\tdata={[]}\tdisabled={false}\tshowSearch\tsearchPlaceholder=\"\"\tleftTitle=\"未选中的\"\trightTitle=\"已选中的\"\tonChange={}/>"
+}
