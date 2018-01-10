@@ -20,12 +20,6 @@ function activate(context) {
     const { line, character } = selection.active // current cursor position
     const curLine = document.lineAt(line).text
 
-    const { tabSize, insertSpaces } = editor.options
-   
-
-    const tab = insertSpaces ? ' '.repeat(tabSize) : '\t'
-    const tabsAtStart = new RegExp(`^(${tab})*`)
-    const indentLevel = (tabsAtStart.exec(curLine) || [])[0].length / tab.length
     let { abbr, abbrStart, abbrEnd } = extract(curLine, character)
     try {
       if (abbr) {
