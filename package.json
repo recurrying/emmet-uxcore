@@ -1,7 +1,7 @@
 {
   "name": "emmet-uxcore",
   "displayName": "emmet-uxcore",
-  "description": "",
+  "description": "emmet for uxcore",
   "version": "0.0.1",
   "publisher": "rbai",
   "engines": {
@@ -13,6 +13,10 @@
   "activationEvents": [
     "onCommand:uxcore.emmet"
   ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/recore/emmet-uxcore"
+  },
   "main": "./extension",
   "contributes": {
     "commands": [
